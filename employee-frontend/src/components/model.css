@@ -1,0 +1,10 @@
+.btn-emp {
+    justify-content: flex-end;
+    justify-self: flex-end;
+    display: flex;
+    align-items: flex-end;
+    width: inherit;
+    padding: 10px;
+    min-width: fit-content;
+
+}

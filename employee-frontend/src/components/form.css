@@ -1,0 +1,6 @@
+.form-header {
+    display: flex;
+    font-size: 0;
+    font-weight: bold;
+    justify-content: center;
+}
