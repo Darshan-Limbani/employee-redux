@@ -69,6 +69,7 @@ exports.deleteEmployee = async (req, res) => {
 exports.updateEmployee = async (req, res) => {
 
     try {
+        console.log("DATA : =====>", req.body);
         const empId = req.params.id;
         const employee = await Employee.findByIdAndUpdate(empId, req.body, {runValidators: true, new: true});
         res.status(200).json({
